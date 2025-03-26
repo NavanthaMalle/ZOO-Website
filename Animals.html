@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Singapore Zoo - Animal Encounters!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      background-image: url("path/to/background-image.jpg"); 
+      background-size: cover;
+      background-position: center;
+    }
+     
+    header {
+      background-color: #4CAF50; 
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    
+    main {
+      padding: 20px;
+      display: flex; /* Use flexbox for responsive layout */
+      flex-wrap: wrap; 
+      justify-content: space-around; 
+    }
+    
+    .animal {
+      background-color: #fff;
+      border-radius: 10px; /* Softer rounded corners */
+      padding: 20px;
+      margin: 10px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center; 
+      cursor: pointer; 
+      transition: transform 0.3s ease;
+    }
+    
+    .animal:hover {
+      transform: scale(1.05); 
+    }
+    
+    .animal img {
+      display: block;
+      margin: 0 auto 10px;
+      width: 250px; /* Set image width */
+      border-radius: 5px; /* Rounded image corners */
+    }
+    
+    .animal h1 {
+      color: #333;
+      font-size: 20px; /* Slightly smaller heading */
+      margin-top: 0;
+    }
+    
+    .animal p {
+      color: #555;
+      line-height: 1.6;
+      font-size: 14px;
+      margin-bottom: 10px; /* Add space between text and buttons */
+    }
+    
+    .animal button {
+      background-color: #4CAF50; /* Green accent color for buttons */
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .animal button:hover {
+      background-color: #3e8e41; 
+    }
+    
+    footer {
+      background-color: #4CAF50; 
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+    <header>
+      <h1>Welcome to the Singapore Zoo!</h1>
+    </header>
+  <main>
+    <div class="animal">
+      <h1>Carnivores</h1>
+      <img src="Assest/carnivores.jpg" alt="Carnivores">
+      <p>Meet the fierce hunters of the animal kingdom...</p>
+      <button>Learn More</button>
+    </div>
+
+    <div class="animal">
+      <h1>Herbivores</h1>   
+      <img src="Assest/herbivores.jpg" alt="Elephant">
+      <p>Gentle giants and plant-munching marvels await...</p>
+      <button>Learn More</button>
+    </div>
+
+    <div class="animal">
+      <h1>Feathered Friends</h1>
+      <img src="Assest/Birds0.jpg" alt="Birds">
+      <p>A dazzling display of wings and feathers takes flight...</p>
+      <button>Learn More</button
